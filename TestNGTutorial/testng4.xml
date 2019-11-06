@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Loan Department">
+<parameter name="URL" value="www.google.com">
+
+</parameter>
+<test name="REgression">
+<groups>
+<run>
+<include name="Smoke"/>
+</run>
+</groups>
+<packages>
+<package name="test">
+
+</package>
+</packages>
+
+</package>
+<classes>
+<class name="test.day4"/>
+<class  name="test.day2"/>
+<methods>  // methods are the test cases only ..
+
+<exclude name="mobilecarloan"></exclude>
+</methods>
+</classes>
+</test>
+
+  </suite>
+  
